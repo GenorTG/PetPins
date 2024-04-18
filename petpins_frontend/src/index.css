@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --onlypaws-main-color: #c05a2c;
+  --onlypaws-secondary-color: #3d291e;
+  --onlypaws-light-color-1: #f7c7a5;
+  --onlypaws-light-color-2: #ffd8b5;
+  --onlypaws-dark-color: #8a4a27;
+}
+
+.text-paws-main {
+  color: var(--onlypaws-main-color);
+}
+
+.text-paws-secondary {
+  color: var(--onlypaws-secondary-color);
+}
+
+.text-paws-light-1 {
+  color: var(--onlypaws-light-color-1);
+}
+
+.text-paws-light-2 {
+  color: var(--onlypaws-light-color-2);
+}
+
+.text-paws-dark {
+  color: var(--onlypaws-dark-color);
+}
